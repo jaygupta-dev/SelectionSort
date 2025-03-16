@@ -14,6 +14,7 @@
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
 
+            Console.WriteLine();
             Console.Write("Before sorting.");
             for (int i = 0; i < number; i++)
             {
@@ -38,7 +39,7 @@
                 arr[i] = temp;
 
             }
-
+            Console.WriteLine();
             Console.Write("After sorting.");
             for (int i = 0; i < number; i++)
             {
